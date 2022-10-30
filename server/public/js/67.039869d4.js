@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkclient"]=self["webpackChunkclient"]||[]).push([[67],{9067:function(n,e,t){t.r(e),t.d(e,{default:function(){return s}});var c=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",{attrs:{id:"Link"}},[n._v(" Link ")])},i=[],u={name:"Link"},l=u,r=t(1001),a=(0,r.Z)(l,c,i,!1,null,"5c78bac4",null),s=a.exports}}]);
+//# sourceMappingURL=67.039869d4.js.map

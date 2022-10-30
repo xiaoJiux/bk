@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkclient"]=self["webpackChunkclient"]||[]).push([[626],{626:function(e,n,t){t.r(n),t.d(n,{default:function(){return f}});var l=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",{attrs:{id:"Daily"}},[e._v(" Daily ")])},a=[],i={name:"Daily"},u=i,c=t(1001),r=(0,c.Z)(u,l,a,!1,null,"cff844fa",null),f=r.exports}}]);
+//# sourceMappingURL=626.69795621.js.map

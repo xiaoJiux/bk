@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkclient"]=self["webpackChunkclient"]||[]).push([[883],{3883:function(t,e,n){n.r(e),n.d(e,{default:function(){return s}});var u=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{attrs:{id:"About"}},[t._v(" About ")])},l=[],r={name:"About"},c=r,a=n(1001),i=(0,a.Z)(c,u,l,!1,null,"4a125f98",null),s=i.exports}}]);
+//# sourceMappingURL=883-legacy.c485fd7b.js.map
