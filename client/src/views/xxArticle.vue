@@ -1,8 +1,8 @@
 <template>
-  <div id="xxArticle" v-if="doc.title">
+  <div v-if="doc.title" id="xxArticle">
     <h1>{{ doc.title }}</h1>
     <p class="author-time">
-      作者：{{ doc.author.user }} 时间：{{ doc.time | fmtTime }}
+      作者：{{ doc.author.username }} 时间：{{ doc.time | fmtTime }}
     </p>
     <div id="article-content" ref="mdToHTML"></div>
   </div>
@@ -11,37 +11,38 @@
 <script>
 export default {
   name: "xxArticle",
-  data() {
+  data () {
     return {
       doc: {}
     }
   },
   watch: {
     "$route": function () {
-      this.refresh()
+      this.refresh ()
     }
   },
   methods: {
-    async refresh() {
+    async refresh () {
       // 知道文章的id，以便于向后端查询数据
       let id = this.$route.params.id
       //向后端查询文章id对应的信息
-      let res = await this.$axios({
+      let res = await this.$axios ({
         method: 'get',
         url: "/art/id",
-        params: {id}
+        params: { id }
       })
 
       this.doc = res.data.data
 
-      let {data} = await this.$axios({
+      let { data } = await this.$axios ({
         method: 'get',
-        url: this.doc.src
+        url: await this.doc.src
       })
+      console.log (data);
       this.$refs.mdToHTML.innerHTML = ""
-      editormd.markdownToHTML("article-content", {
+      editormd.markdownToHTML ("article-content", {
         markdown: data,
-        toc: false,
+        toc: true,
         emoji: true,
         taskList: true,
         tex: true,
@@ -50,13 +51,13 @@ export default {
       })
     }
   },
-  mounted() {
-    this.refresh()
+  mounted () {
+    this.refresh ()
   },
 }
 </script>
 
-<style scoped lang="less">
+<style lang="less" scoped>
 #xxArticle {
   position: relative;
   box-sizing: border-box;

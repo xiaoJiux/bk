@@ -1,6 +1,6 @@
 <template>
 <div id="Daily">
-  Daily
+  待开发~
 </div>
 </template>
 

@@ -21,7 +21,7 @@
             </li>
             <li>
               <p class="dt">GITHUB</p>
-              <p class="dd"><a href="https://github.com/flycatso" target="_blank">https://github.com/flycatso</a></p>
+              <p class="dd"><a href="https://github.com/xiaoJiux" target="_blank">https://github.com/flycatso</a></p>
             </li>
           </ul>
         </div>
@@ -31,10 +31,10 @@
             <li>
               <p class="lang">
                 <span class="s1">HTML5 & CSS3</span>
-                <span class="s2">80%</span>
+                <span class="s2">90%</span>
               </p>
               <p class="level">
-                <span style="width: 80%"></span>
+                <span style="width: 90%"></span>
               </p>
             </li>
             <li>
@@ -76,10 +76,10 @@
             <li>
               <p class="lang">
                 <span class="s1">React</span>
-                <span class="s2">5%</span>
+                <span class="s2">50%</span>
               </p>
               <p class="level">
-                <span style="width: 5%"></span>
+                <span style="width: 50%"></span>
               </p>
             </li>
           </ul>

@@ -10,7 +10,7 @@
         <router-link to="/">首页</router-link>
         <router-link to="/article">文章</router-link>
         <router-link to="/message">留言</router-link>
-        <router-link to="/daily">日记</router-link>
+        <router-link to="/daily">足迹</router-link>
         <router-link to="/Link">友链</router-link>
         <router-link to="/about">关于</router-link>
       </div>
